@@ -1,7 +1,3 @@
-# Wireshark для практики 4: открывается в браузере — вкладка Ports, порт 3000.
-# Сеть — как в П1–П3: network_mode: host (в Codespace сеть Docker ведёт себя ненадёжно).
-# На своём компьютере или ВМ Wireshark будет открыт всей сети без пароля — задайте
-# переменные CUSTOM_USER и PASSWORD. В Codespace порты видит только владелец.
 name: p4-wireshark
 services:
   wireshark:
